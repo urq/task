@@ -1,0 +1,66 @@
+# same format as taskwarrior
+task <filter> <command> <do-something>
+
+# principles:
+* you only need to remember things you need to do in context, so only show things that are relevant
+* log everything
+* notifications, repeated things, and calendar stuff are just an extension of tasks
+
+# commands
+add - create new task
+modify - change task(s)
+show - show the details of the selected tasks
+delete - delete tasks
+done - complete a task
+sync (gcal|jira) [down|up] - use this to sync data with external services
+config - use this to set defaults
+alias - use this to create shorthands for new filters
+ids - prints the ids of the filtered tasks
+undo - undo the last action
+
+keep analytics on all usage of this tool for later
+
+# integrations
+google calendar
+other task managers
+    jira
+    asana?
+version control
+    stash
+    github
+web browsers
+    chrome
+    firefox
+
+
+# task fields
+description
+tags
+status
+dependencies|depends|deps
+estimated_time|est
+actual_time|act
+priority|pri
+resources
+dates and times
+  due
+  recur
+    start_date
+    until_date
+    occurances (1,2,3,...)
+    repeats (daily, weekly, etc.)
+    repeat_on (mon, tues, wed, etc.)
+  notify (0, 1 min, 10 min, 24 hrs)
+
+# hidden:
+uuid
+create_time
+done_time
+delete_time
+last_modified_time
+
+# notifications
+
+# TODO
+* improve filtering expressions
+* improve date expressions and frequency expressions

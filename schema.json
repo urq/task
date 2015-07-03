@@ -1,0 +1,36 @@
+{
+    "version":"0.1",
+    "schema":{
+        "title":"task",
+        "type":"object",
+        "schema": [
+            {
+                "title":"description",
+                "type":"string"
+            },
+            {
+                "title":"tags",
+                "type":"list"
+
+            }
+
+id
+tags
+status
+dependencies|depends|deps
+priority|pri
+resources|artifacts
+dates and times
+  estimated_time|est
+  actual_time|act
+  due
+  recur
+    start_date
+    until_date
+    occurances (1,2,3,...)
+    repeats (daily, weekly, etc.)
+    repeat_on (mon, tues, wed, etc.)
+  notify (0, 1 min, 10 min, 24 hrs) (before the event)
+  create_time*
+  done_time*
+  last_modified_time*

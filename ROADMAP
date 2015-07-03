@@ -1,0 +1,12 @@
+1. determine task/notification functionality and attributes
+2. design models (use SQLAlchemy!)
+3. design REST API (includes actions!)
+4. build server (use Django)
+5. build parser/HTTP client in Python or OCaml
+6. build fancy fat client functionality (cool views, caching).
+
+cmdline \ |-------|  |----|  / SQLite (testing, embedded)
+         \|command|  |REST| /
+web - - - |parser |--|API | ---MySQL (cloud deployment)
+         /|HTTP cl|  |____|
+android / |_______|
